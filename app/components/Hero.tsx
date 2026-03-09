@@ -64,7 +64,9 @@ export default function Hero() {
           </Link>
 
           <Link
-            href="#contact"
+            href="https://wa.me/917823842448"
+            target="_blank"
+            rel="noopener noreferrer"
             className="whitespace-nowrap px-6 sm:px-8 py-3 rounded-full border border-gray-600 text-gray-300 text-sm sm:text-base font-medium transition-all hover:border-white hover:text-white hover:bg-white/5 active:scale-95"
           >
             Contact Me
