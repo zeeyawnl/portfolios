@@ -14,15 +14,15 @@ export default function Hero() {
         raysOrigin="top-center"
         raysColor="#ffffff"
         raysSpeed={1}
-        lightSpread={0.5}
-        rayLength={3}
-        pulsating={false}
-        fadeDistance={0.8}
+        lightSpread={2.2}
+        rayLength={4.2}
+        pulsating={true}
+        fadeDistance={2.2}
         saturation={0.2}
         followMouse={true}
         mouseInfluence={0.15}
         noiseAmount={0.15}
-        distortion={0.2}
+        distortion={0.6}
       />
 
       {/* Soft Gradient Overlay (Luxury Depth) */}
@@ -63,14 +63,12 @@ export default function Hero() {
             View Work
           </Link>
 
-          <a
-            href="https://wa.me/7823842448"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href="#contact"
             className="whitespace-nowrap px-6 sm:px-8 py-3 rounded-full border border-gray-600 text-gray-300 text-sm sm:text-base font-medium transition-all hover:border-white hover:text-white hover:bg-white/5 active:scale-95"
           >
             Contact Me
-          </a>
+          </Link>
 
         </div>
 

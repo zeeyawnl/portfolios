@@ -30,22 +30,22 @@ export default function Navbar() {
   return (
     <nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-5xl">
       {/* Glassmorphism Capsule Container */}
-      <div className="backdrop-blur-xl bg-white/10 border border-white/20 rounded-full shadow-2xl px-8 py-4">
-        
+      <div className="backdrop-blur-2xl bg-white/5 border border-white/20 rounded-full shadow-2xl px-8 py-4">
+
         {/* Mobile = flex | Desktop = grid */}
         <div className="relative flex items-center justify-between md:grid md:grid-cols-3">
 
           {/* Logo */}
           <div className="md:static absolute left-1/2 -translate-x-1/2 md:translate-x-0 md:left-auto">
             <Link href="/" className="text-lg font-semibold">
-             <ShinyText
-  text="ZEEYAWNL"
-  className={myFont.className}
-  color="#9ca3af"
-  shineColor="#ffffff"
-  spread={45}
-  pauseOnHover={true}
-/>
+              <ShinyText
+                text="ZEEYAWNL"
+                className={myFont.className}
+                color="#9ca3af"
+                shineColor="#ffffff"
+                spread={45}
+                pauseOnHover={true}
+              />
 
 
             </Link>
@@ -102,7 +102,7 @@ export default function Navbar() {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -10 }}
           transition={{ duration: 0.2 }}
-          className="md:hidden mt-4 backdrop-blur-xl bg-white/10 border border-white/20 rounded-3xl shadow-2xl overflow-hidden"
+          className="md:hidden mt-4 backdrop-blur-2xl bg-white/5 border border-white/20 rounded-3xl shadow-2xl overflow-hidden"
         >
           <div className="flex flex-col items-center gap-6 py-8 px-6">
             {navLinks.map((link) => (
@@ -126,8 +126,9 @@ export default function Navbar() {
               GitHub
             </a>
           </div>
-        </motion.div>
-      )}
-    </nav>
+        </motion.div >
+      )
+      }
+    </nav >
   );
 }

@@ -34,7 +34,7 @@ export default function Footer() {
                         transition={{ duration: 0.8 }}
                         className={`text-5xl sm:text-6xl lg:text-[76px] font-medium tracking-tight leading-[1.05] text-white ${myFont.className}`}
                     >
-                        Let's Connect<br />There
+                        Let's Connect<br />
                     </motion.h2>
 
                     <motion.a
