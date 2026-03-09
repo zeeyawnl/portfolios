@@ -24,14 +24,14 @@ const projects = [
     {
         id: 3,
         title: "IQRA DWIJ",
-        category: "Complete Website for a Donation",
+        category: "Website for a Donation Campaign",
         link: "https://www.iqradwijfoundation.com/",
         image: "/images/dwij.png",
     },
     {
         id: 4,
         title: "BigData Website",
-        category: "Complete Website for a EdTech Company",
+        category: "Website for a EdTech Company",
         link: "https://hadoop-website.vercel.app/",
         image: "/images/bigdata.png",
     },
@@ -45,7 +45,7 @@ const projects = [
     {
         id: 6,
         title: "IQRA IAS Courses",
-        category: "Complete Website for a Campaign",
+        category: "Website to launch new courses",
         link: "https://iqra-ias-newcourses.vercel.app/",
         image: "/images/newcourse.png",
     },
