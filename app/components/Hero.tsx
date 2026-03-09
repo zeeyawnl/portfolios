@@ -31,10 +31,10 @@ export default function Hero() {
       {/* Content */}
       <div className="relative h-full flex flex-col items-center justify-center text-center px-6 text-white">
 
-        <p className=" text-sm tracking-[0.3em] uppercase text-gray-300 mb-6 mt-30 md:mt-6">
+        <p className=" text-sm tracking-[0.3em] uppercase text-gray-300 mb-6 mt-18 md:mt-6">
           Product Designer & Frontend Engineer
         </p>
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-semibold leading-[1.1] tracking-tight">
+        <h1 className="text-5xl mt-8 md:text-7xl lg:text-8xl font-semibold leading-[1.1] tracking-tight">
           Where Design Meets
           <ShinyText
             text="STRATEGY & PERFORMANCE"
@@ -50,7 +50,7 @@ export default function Hero() {
 
           />
         </h1>
-        <p className="mt-8 max-w-2xl text-base md:text-lg text-gray-400 leading-relaxed">
+        <p className="mt-10 max-w-2xl text-base md:text-lg text-gray-400 leading-relaxed">
           Hi, I am ZEEYA and I craft scalable digital experiences backed by SEO strategy, product research, and performance analytics to drive measurable growth.
         </p>
 
