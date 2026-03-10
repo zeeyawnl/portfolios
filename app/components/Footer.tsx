@@ -111,7 +111,7 @@ export default function Footer() {
                         <div className="flex flex-col gap-6">
                             <h4 className="text-white font-semibold text-[15px] tracking-wide">Address</h4>
                             <div className="flex flex-col gap-3">
-                                <p className="text-[#a1a1aa] text-sm leading-relaxed font-light">Byculla, Mumbai. India.</p>
+                                <p className="text-[#a1a1aa] text-sm leading-relaxed font-light">Mumbai, India.</p>
                                 <p className="text-[#a1a1aa] text-sm leading-relaxed font-light">Camp Pune, India.</p>
                             </div>
                         </div>
